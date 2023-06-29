@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "trOqCwOSnVkHZ+NL4sOFAIZpDBpQfSbttMCvmI3Isq86jjHJW0wQjzVINVF01AGHcDO3wSP0j8kuE13xNFJJww==",
+  "success": true,
+  "projectFilePath": "C:\\repo\\ExampleSolutionInCSciarpa\\NUnitTesting\\NUnitTesting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\papaa\\.nuget\\packages\\fluentassertions\\6.11.0\\fluentassertions.6.11.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\papaa\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\papaa\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\papaa\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\papaa\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
