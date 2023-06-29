@@ -1,27 +1,28 @@
-﻿using FluentAssertions;
-using Xunit;
+using FluentAssertions;
+using NUnit.Framework;
 
-namespace XUnitTesting;
+namespace NUnitTesting;
 
+[TestFixture]
 public class UnitTesting
 {
     private int _valoreIniziale;
 
-    public UnitTesting()
+    [SetUp]
+    public void Init()
     {
         _valoreIniziale = 42;
     }
 
-    [Fact]
+    [Test]
     public void SimpleTest()
     {
         _valoreIniziale.Should().BeGreaterThan(0);
     }
 
-    [Theory]
-    [InlineData(1, true)]
-    [InlineData(2, true)]
-    [InlineData(-44, false)]
+    [TestCase(1, true)]
+    [TestCase(2, true)]
+    [TestCase(-44, false)]
     public void MultipleTest(int value, bool expected)
     {
         var actual = _valoreIniziale + value;
